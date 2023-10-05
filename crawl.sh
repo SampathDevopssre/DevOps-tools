@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDUmaRUE7wDo9knK/UtzeWJQMKh7mP4dc6ZzJnnZkM50BnISt3pIJmAkI/gbThs+CiZKsM+TCT6jgS8/xAbQdhDIrUdyaIyataBBH+x7kmt3i+pzM9ua6R+eqFeiG8YiQhwa81B24axXlPxzD0i6XxxAtzBqyjWhq75CYUIdC6YLB9XiEEGG/J78D/T2IuYvwueLHBi1MHScZVxDTeRHPJYRDS6oAqro/63lzuMQsDdwRNWGo3yRB4aB0DsR8/muj+SVhGgCSFsOyZRHUa5ABJMnBBMawXvDLEKPqcZdJRqfK/4HHSJwK5Uv5WjBYJqnxqjdpkDaTm1UojiNcRNOIveACRIOCMHEXXR68vATeGC4Fez5LWlgLgBvwzXVpF1uh3SY7L5X89PeDfjCFpnWvH33WJ9ymIpJRZvISD+mzHpPyFbV4AN7NOHfC+Uz/+HHA3ANAJ5pkdwHOeNW9LgLhkCpchLdEtnFsoqYI3LenE6EM+T4PmkNV95JkIM3/MMbUc= centos" >> /home/centos/.ssh/authorized_keys
+chmod 600 /home/centos/.ssh/authorized_keys 
+curl ifconfig.co 
+echo "Stay calm and wait for a while, till Manu Responds"

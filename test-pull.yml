@@ -1,0 +1,9 @@
+- name: RoboShop Setup
+  hosts: localhost
+  become: yes
+#   roles:
+#     - role: "{{COMPONENT}}"
+  tasks:
+    - name: Print Hello from Play1  
+      debug:    
+        msg: Hello from Play1  
